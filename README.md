@@ -28,7 +28,7 @@ pyobfuscate -i your_file.py -r True
 ## More Detailed Documentation
 
 You can use this as a module if you want
-```
+```py
 import python_obfuscator
 obfuscator = python_obfuscator.obfuscator()
 
@@ -36,7 +36,7 @@ code_to_obfuscate = "print('hello world')"
 ```
 
 You can also exclude certain techniques applied for obfuscation
-```
+```py
 import python_obfuscator
 from python_obfuscator.techniques import add_random_variables
 obfuscator = python_obfuscator.obfuscator()
@@ -49,7 +49,7 @@ Find a list of all techniques [here](https://github.com/davidteather/python-obfu
 ## Example Obfuscated Code
 
 Input
-```
+```py
 y = input("what's your favorite number")
 
 user_value = int(y)
